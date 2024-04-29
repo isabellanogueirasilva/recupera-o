@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(193, 193, 193, 0.295);
+  }
+  
+  header {
+    background-color: #FFA500;;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+      
+      img{
+        width: 150px;
+        height: 120px;
+        border-radius: 75%;
+        padding : 3%;
+        }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .offer {
+    background-color: #fdfdfd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .offer img {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+  }
+
+
+  
+  .offer h2 {
+    margin-top: 10px;
+    text-align: center;}
+
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #e71d36; /* Vermelho característico do Burger King */
+  }
+
+  a{
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin-right: 20px;
+    }
+    
+    nav ul li a {
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    }
+    h1{color: #000000;}
+

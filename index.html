@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger King - Página Inicial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+
+
+<!-- navbar -->
+
+<header>
+  <div class="logo">
+    <img src="fotos.img/logo.jpg" alt="logo">
+  </div>
+  <nav>
+      <ul>
+        <li><a style="font-size: 100%;" href="Ofertas Especiais.html"><b><i>Promoção</i></b></a></li>
+        <li><a style="font-size: 100%;" href="Programa de Fidelidade.html"><b><i>programa de Fidelidade</b></a> 
+        <li><a style="font-size: 100%;" href="Contatos .html"><b><i>Contatos</i></b></a></li> 
+        <li><a style="font-size: 100%;" href="login.html"><b><i>login</i></b></a></li> 
+      </ul>
+  </nav>
+</header>
+    
+  <main>
+ <center><h1>🍔Bem vindo ao Burger King🍔</h1></center>
+      <p2 class="main-text2"> Burger King, estamos comprometidos em oferecer a você uma experiência excepcional de hambúrgueres. Desde os nossos clássicos Whoppers até os suculentos Cheeseburgers, cada mordida é uma explosão de sabor que vai deixar você com água na boca.<br><br>
+      Nossos ingredientes frescos e de alta qualidade combinados com o sabor inconfundível do fogo garantem que cada hambúrguer seja uma obra-prima em si. Não importa se você está com fome de manhã, tarde ou noite, estamos aqui para satisfazer seus desejos de hambúrguer🍔.<br><br>
+      Explore nosso menu diversificado, que inclui opções para todas as preferências, desde deliciosos hambúrgueres de carne até alternativas vegetarianas e veganas. Acompanhe seu hambúrguer favorito🍔 com nossas batatas fritas🍟 crocantes e um refrigerante gelado para uma refeição verdadeiramente satisfatória.<br><br>
+       </p2 </p>
+  </main>
+
+</script>
+
+<footer>
+<p>© 2024 Burger King. Todos os direitos reservados.</p>
+</footer>
+</body></script>
+      
+  
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="fotos.img/bk-calvo.jpeg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="fotos.img/bk-promocao.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="fotos.img/bk-viado.jpeg" style="width:100%">
+  </div>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+<footer>
+  <p>© 2024 Burger King. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>

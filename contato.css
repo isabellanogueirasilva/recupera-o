@@ -1,0 +1,76 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #FFA500;;
+  padding: 10px;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    margin-right: 10px; /* Adicionando margem Ã  direita para a logo */
+    }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #ff9800;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos do contato e localização */
+#contact,
+#location {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#contact h2,
+#location h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ 

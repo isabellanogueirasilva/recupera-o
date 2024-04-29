@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0000001b;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FFA500;;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    .logo img {
+      max-width: 200px;
+      margin-right: 10px; /* Adicionando margem Ã  direita para a logo */
+      }
+      
+        
+      h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #e62e04; /* Vermelho Burger King */
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #e62e04; /* Vermelho Burger King */
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #ff7f00; /* Laranja Burger King */
+    }

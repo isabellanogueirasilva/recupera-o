@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger King - Programa de Fidelidade</title>
+  <link rel="stylesheet" href="cardapio.css">
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="fotos.img/logo.jpg" alt="logo">
+          </div>
+          <div class="container">
+           <h1>Cardapio</h1>
+           <nav>
+            <ul>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#order">Fazer Pedido</a></li>
+                <link rel="stylesheet"  href="index.html">
+            </ul>
+    </div>
+</header>
+    
+<section id="menu">
+    <div class="container">
+   
+        <div class="menu-item">
+        <center><img src="fotos.img/whopper.jpg" alt="Big King"></center>
+          <center>  <h3>Whopper</h3></center>
+           <p>O clássico hambúrguer do Burger King.</p>
+            <p class="price">R$ 15,90</p>
+        </div>
+      
+        <div class="menu-item">
+            <center><img src="fotos.img/burgerking.jpg" alt="Big King"></center>
+        <center><h3>Big King</h3></center>
+            <p>Dois hambúrgueres, queijo, alface e molho especial.</p>
+            <p class="price">R$ 14,50</p>
+        </div>
+        <div class="menu-item">
+            <center><img src="fotos.img/rodeioduplo.jpg" alt="Big King"></center>
+        <center><h3>Rodeio Duplo</h3></center>
+            <p>Dois hambúrgueres, queijo, alface e molho especial e barber geal.</p>
+            <p class="price">R$ 22,50</p>
+        <
+         
+        </div>
+
+    </div>
+</section>
+
+<section id="order">
+    <div class="container">
+        <h2>Fazer Pedido</h2>
+        <form id="orderForm">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="item">Item:</label>
+                <select id="item" name="item" required>
+                    <option value="">Selecione um item</option>
+                    
+                    <option value="Whopper">Whopper</option>
+                    <option value="Whopper">burger king</option>
+                    <option value="Whopper">Rodeio Duplo</option>
+                 
+                </select>
+            </div>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Burger King. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
